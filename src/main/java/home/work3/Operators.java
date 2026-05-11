@@ -8,7 +8,7 @@ public class Operators {
         Scanner scanner = new Scanner(System.in);
 
         // 1.Check the biggest number:
-        // int,double & float options
+        // int,double & float options ???
         System.out.println("Please enter first number:");
         int a = scanner.nextInt();
 
