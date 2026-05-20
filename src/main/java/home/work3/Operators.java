@@ -9,13 +9,13 @@ public class Operators {
 
         // 1.Check the biggest number:
         // int,double & float options ???
-        System.out.println("Enter first number:");
+        System.out.println("Please enter first number:");
         int a = scanner.nextInt();
 
-        System.out.println("Enter second number:");
+        System.out.println("Please enter second number:");
         int b = scanner.nextInt();
 
-        System.out.println("Enter third number:");
+        System.out.println("Please enter third number:");
         int c = scanner.nextInt();
 
         int max = a;
@@ -36,7 +36,7 @@ public class Operators {
         double width = scanner.nextDouble();
 
         if (width <= 0) {
-            System.out.println("ERROR: Width must be positive number");
+            System.out.println("ERR: Width must be positive number");
             return;
         }
 
@@ -44,15 +44,15 @@ public class Operators {
         double height = scanner.nextDouble();
 
         if (height <= 0) {
-            System.out.println("ERROR: Height must be positive number");
+            System.out.println("ERR: Height must be positive number");
             return;
         }
 
         double perimeter = 2 * (width + height);
         double area = width * height;
 
-        System.out.println("Rectangle perimeter is: " + perimeter);
-        System.out.println("Rectangle area is: " + area);
+        System.out.println("Perimeter = " + perimeter);
+        System.out.println("Area = " + area);
         System.out.println("------------");
 
         // 3.Check for Odd or Even number:
@@ -69,7 +69,7 @@ public class Operators {
 
         // 4.Read month of the year:
         // String for name of month
-        System.out.println("Enter a number for a month of the year: ");
+        System.out.println("Enter number for a month of the year: ");
         int month = scanner.nextInt();
         printMonthOfYearSwitch(month);
     }

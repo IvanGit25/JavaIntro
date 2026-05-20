@@ -59,7 +59,7 @@ public class Pet {
 
     // Method - action for all pets
     public void beg() {
-        System.out.println(name + " is begging for food.");
+        System.out.println(name + " is begging for a cracker");
     }
     public void eat() {
         System.out.println(name + " is eating now.");
