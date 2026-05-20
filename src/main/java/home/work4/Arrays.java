@@ -8,7 +8,7 @@ public class Arrays {
         String line = "------------";
 
         //1. Initialize array elements * 5:
-        int[] intArray = new int[20];
+        int[] intArray = new int[10];
 
         for (int i = 0; i < intArray.length; i++) {
             intArray[i] = i * 5;

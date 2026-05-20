@@ -13,7 +13,7 @@ public class StringExercises {
         String newValue = scanner.nextLine();
 
         String result = text.replace("Test", newValue);
-        System.out.println(result);
+        System.out.println("String with new value is: " + result);
         System.out.println("----------");
 
         // Compare 2 strings
@@ -23,7 +23,7 @@ public class StringExercises {
         System.out.println("Enter second string name: ");
         String name2 = scanner.nextLine();
 
-        System.out.println(name1.equals(name2));
+        System.out.println("Compared strings output is: " + name1.equals(name2));
         System.out.println("----------");
 
         // Count words in string
@@ -31,7 +31,7 @@ public class StringExercises {
 
         String[] words = sentence.split("\\s+");
 
-        System.out.println(words.length);
+        System.out.println("This String has: " + words.length + " words");
         System.out.println("----------");
 
         // Combine 2 or more strings
@@ -40,7 +40,7 @@ public class StringExercises {
         String text3 = "combined";
         String text4 = "string";
 
-        String combinedtext = text1 + " " + text2 + " " + text3 + " " + text4;
+        String combinedtext = ("Combined output is: " + text1 + " " + text2 + " " + text3 + " " + text4);
         System.out.println(combinedtext);
 
     }
