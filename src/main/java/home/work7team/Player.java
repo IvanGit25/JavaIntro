@@ -16,12 +16,12 @@ public class Player {
         }
     }
 
-    public int getOverallSkill() {
+    public double getOverallSkill() {
         return stats.getStats();
     }
 
     public void setStats(PlayerStats stats) {
-        if (!stats.equals(null)){
+        if (stats != null){
             this.stats = stats;
         }else {
             System.out.println("Stats should be between 0 and 100.");

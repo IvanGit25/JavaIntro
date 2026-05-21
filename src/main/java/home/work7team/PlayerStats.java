@@ -1,17 +1,17 @@
 package home.work7team;
 
 public class PlayerStats {
-    private int endurance;
-    private int sprint;
-    private int dribble;
-    private int passing;
-    private int shooting;
+    private double endurance;
+    private double sprint;
+    private double dribble;
+    private double passing;
+    private double shooting;
 
-    public int getEndurance() {
+    public double getEndurance() {
         return endurance;
     }
 
-    public void setEndurance(int endurance) {
+    public void setEndurance(double endurance) {
         if (endurance >= 0 && endurance <= 100){
             this.endurance = endurance;
         }else {
@@ -19,11 +19,11 @@ public class PlayerStats {
         }
     }
 
-    public int getSprint() {
+    public double getSprint() {
         return sprint;
     }
 
-    public void setSprint(int sprint) {
+    public void setSprint(double sprint) {
         if (sprint >= 0 && sprint <= 100){
             this.sprint = sprint;
         }else {
@@ -31,11 +31,11 @@ public class PlayerStats {
         }
     }
 
-    public int getDribble() {
+    public double getDribble() {
         return dribble;
     }
 
-    public void setDribble(int dribble) {
+    public void setDribble(double dribble) {
         if (dribble >= 0 && dribble <= 100){
             this.dribble = dribble;
         }else {
@@ -43,11 +43,11 @@ public class PlayerStats {
         }
     }
 
-    public int getPassing() {
+    public double getPassing() {
         return passing;
     }
 
-    public void setPassing(int passing) {
+    public void setPassing(double passing) {
         if (passing >= 0 && passing <= 100){
             this.passing = passing;
         }else {
@@ -55,11 +55,11 @@ public class PlayerStats {
         }
     }
 
-    public int getShooting() {
+    public double getShooting() {
         return shooting;
     }
 
-    public void setShooting(int shooting) {
+    public void setShooting(double shooting) {
         if (shooting >= 0 && shooting <= 100){
             this.shooting = shooting;
         }else {
@@ -67,7 +67,8 @@ public class PlayerStats {
         }
     }
 
-    public PlayerStats(int endurance, int sprint, int dribble, int passing, int shooting){
+    public PlayerStats(double endurance, double sprint, double dribble,
+                       double passing, double shooting){
         setEndurance(endurance);
         setSprint(sprint);
         setDribble(dribble);
@@ -75,7 +76,7 @@ public class PlayerStats {
         setShooting(shooting);
     }
 
-    public int getStats(){
+    public double getStats(){
         return (endurance + sprint + dribble + passing + shooting) / 5;
     }
 }
