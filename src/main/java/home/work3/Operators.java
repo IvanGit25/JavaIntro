@@ -36,7 +36,7 @@ public class Operators {
         double width = scanner.nextDouble();
 
         if (width <= 0) {
-            System.out.println("ERR: Width must be positive number");
+            System.out.println("ERROR: Width must be positive number");
             return;
         }
 
@@ -44,7 +44,7 @@ public class Operators {
         double height = scanner.nextDouble();
 
         if (height <= 0) {
-            System.out.println("ERR: Height must be positive number");
+            System.out.println("ERROR: Height must be positive number");
             return;
         }
 

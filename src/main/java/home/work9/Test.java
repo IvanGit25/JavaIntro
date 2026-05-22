@@ -31,15 +31,4 @@ public interface Test {
     //10 - no private interfaces
     //private static final int x5 = 3;
 
-
-
-
-
-
-
-
-
-
-
-
 }
