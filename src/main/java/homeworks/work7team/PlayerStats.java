@@ -1,4 +1,4 @@
-package home.work7team;
+package homeworks.work7team;
 
 public class PlayerStats {
     private double endurance;

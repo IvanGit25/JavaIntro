@@ -1,4 +1,4 @@
-package home.work9;
+package homeworks.work9;
 
 public class Company {
     private String companyName;

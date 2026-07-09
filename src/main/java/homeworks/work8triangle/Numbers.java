@@ -1,4 +1,4 @@
-package home.work8triangle;
+package homeworks.work8triangle;
 
 import java.util.Scanner;
 

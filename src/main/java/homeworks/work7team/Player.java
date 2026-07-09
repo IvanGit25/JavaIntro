@@ -1,4 +1,4 @@
-package home.work7team;
+package homeworks.work7team;
 
 public class Player {
     private String name;

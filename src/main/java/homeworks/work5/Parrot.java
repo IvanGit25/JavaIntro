@@ -1,4 +1,4 @@
-package home.work5;
+package homeworks.work5;
 
 public class Parrot extends Pet {
 
